@@ -1,0 +1,67 @@
+#output-screen{
+    width: 11cm;
+    height: 2cm;
+    margin-bottom: 50px;
+}
+
+input{
+    text-align: end;
+    font-size: 40px;
+    font-weight:bolder;
+    margin-top: -10px;
+    margin-bottom: -10px;
+    border-radius: 40px;
+    border-color: darkgrey;
+    background-color: #eceeef;
+    box-shadow: inset -5px -5px 12px #ffffff,
+                inset 5px 5px 12px  rgba(111, 106, 106, 0.16);
+}
+h1{
+    margin-top: -120px;
+    text-align: center;
+    margin-right: 60px;
+
+}
+button{ 
+    
+    padding: 30px;
+    height: 40px;
+    width: 80px;
+    border-radius: 30px;
+
+    border:none;
+    margin-right: 30px;
+    background-color: #ecf0f3;
+    box-shadow: 15px 20px 20px rgba(30, 21, 21, 0.3),inset 4px 4px 10px white;
+   margin-bottom: 10px;
+}
+.container{
+    width: 100%;
+    padding-top: 140px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+
+input:hover{
+    box-shadow: inset 5px 5px 10px rgba(34, 33, 33, 0.3),
+                inset -4px -4px 10px rgb(36, 33, 33);
+}
+
+
+
+button:hover{
+    box-shadow: inset 5px 5px 10px rgba(183, 170, 170, 0.3),
+                inset -4px -4px 10px rgb(38, 37, 37);
+}
+
+button:hover{
+    color: black;
+}
+#equal{
+    margin-bottom: 10px;
+
+}
+
